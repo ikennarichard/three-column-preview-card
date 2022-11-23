@@ -154,7 +154,7 @@ main div {
     }
 
     main div {
-        padding: 2em 2em;
+        padding: 2em 1.5em;
         padding-block-end: 3em;
     }
 
@@ -166,8 +166,9 @@ main div {
         border-radius: 0.3em 0 0 0.3em;
     }
 
-    main > p {
-        width: 11em;
+    main  p {
+        /* width: 15em; */
+        font-size: 0.9em;
     }
 
 
