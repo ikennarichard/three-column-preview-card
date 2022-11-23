@@ -49,7 +49,7 @@ Users should be able to:
 
 ### Continued development
 
-Flex 💪 display is powerful, its a useful tool in building layouts, but i like grid, its less and powerful too.  
+Flex 💪 display is powerful, its a useful tool in building layouts, but i like to really understand grid, its powerful too.  
 
 
 ## Author
