@@ -10,9 +10,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -35,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://your-solution-url.com)
-- Live Site URL: [Live Preview](https://your-live-site-url.com)
+- Live Site URL: [Live Preview](https://ikennarichard.github.io/three-column-preview-card/)
 
 ## My process
 
