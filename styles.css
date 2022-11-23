@@ -163,6 +163,18 @@ main {
         border-radius: 0.3em 0 0 0.3em;
     }
 
+    .sedans > p {
+        width: 11em;
+    }
+
+    .suvs > p {
+        width: 11em;
+    }
+
+    .luxury > p {
+        width: 11em;
+    }
+
 
     span {
         margin-block-start: 1em;
