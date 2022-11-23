@@ -50,7 +50,7 @@ div > p {
 
 
 div {
-   padding: 2em;
+   /* padding: 2em; */
    color: var(--very-light-gray);
    display: grid;
    gap: 20px;
@@ -72,7 +72,7 @@ span {
 span:hover {
     cursor: pointer;
     background-color: inherit;
-    border: 2px solid  var(--transparent-white);
+    border: 1px solid  var(--transparent-white);
 
 }
 
@@ -150,7 +150,6 @@ main {
     }
 
     main div {
-        /* border: 1px dotted; */
         padding: 2em 2em;
         padding-block-end: 3em;
     }
@@ -163,15 +162,7 @@ main {
         border-radius: 0.3em 0 0 0.3em;
     }
 
-    .sedans > p {
-        width: 11em;
-    }
-
-    .suvs > p {
-        width: 11em;
-    }
-
-    .luxury > p {
+    main > p {
         width: 11em;
     }
 
