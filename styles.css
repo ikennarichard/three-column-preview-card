@@ -1,0 +1,171 @@
+
+/* imports--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); /*Lexand 400*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap'); /*Big shoulders 700*/
+
+
+
+/*default styles------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+:root {
+--bright-orange: hsl(31, 77%, 52%);
+--dark-cyan: hsl(184, 100%, 22%);
+--very-dark-cyan: hsl(179, 100%, 13%);
+--transparent-white: hsla(0, 0%, 100%, 0.75); /*paragraphs*/
+
+--very-light-gray: hsl(0, 0%, 95%); /*background, headings, buttons*/
+--slight-white: rgba(255, 255, 255, 0.911);
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    font-size: 14px;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    padding: 2em 2em;
+}
+
+
+div > p {
+    font-family: 'Lexend Deca', sans-serif;;
+    color: var(--transparent-white);
+    letter-spacing: 0.1px;
+}
+
+
+
+div {
+   padding: 2em;
+   color: var(--very-light-gray);
+   display: grid;
+   gap: 20px;
+   padding-block-end: 4em;
+}
+
+
+span {
+    all: none;
+    background-color: var(--dark-cyan);
+    padding: 0.6em 0 0.6em 0;
+    width: 9.5em;
+ 
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;;
+}
+
+
+span:hover {
+    cursor: pointer;
+    background-color: inherit;
+    border: 2px solid  var(--transparent-white);
+
+}
+
+
+
+
+h1, h2 {
+    color: var(--transparent-white);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 28px;
+}
+
+
+/* main-------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+main {
+    background-color: var(--very-light-gray);
+    width: 17em;
+}
+
+
+
+.sedans {
+    background-color: var(--bright-orange);
+    border-radius: 0.3em 0.3em 0 0;
+}
+
+
+.sedans > span {
+    color: var(--slight-white);
+}
+
+
+.suvs {
+    background-color: var(--dark-cyan);
+    
+}
+
+
+.suvs > span {
+    color: var(--);
+    background-color: var(--bright-orange);
+}
+
+
+.suvs > span:hover {
+    background-color: inherit;
+    border-color: var(--slight-white);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 0.3em 0.3em;
+}
+
+
+.luxury > span {
+    color: var(--slight-white);
+}
+
+
+.luxury > span:hover {
+    background-color: var(--slight-white);
+    color: var(--very-dark-cyan);
+}
+
+
+@media (min-width: 662px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+        width: 46em;
+    }
+
+    main div {
+        /* border: 1px dotted; */
+        padding: 2em 2em;
+        padding-block-end: 3em;
+    }
+
+    .luxury {
+        border-radius: 0 0.3em 0.3em 0;
+    }
+
+    .sedans {
+        border-radius: 0.3em 0 0 0.3em;
+    }
+
+
+    span {
+        margin-block-start: 1em;
+      
+    }
+}
